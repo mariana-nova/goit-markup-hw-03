@@ -19,9 +19,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-bottom: 1px solid #ececec;
 }
 .container {
-  width: 1300px;
+  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: 15px;
@@ -29,7 +30,18 @@ body {
 }
 .menu {
   display: flex;
-  padding-left: 100px;
+  list-style: none;
+  margin: auto;
+}
+.menu a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7142em;
+  letter-spacing: 0.02em;
+  margin: auto;
+  margin-right: 50px;
 }
 .list {
   display: flex;
@@ -37,22 +49,7 @@ body {
 .list a {
   margin-right: 50px;
 }
-.titles-section {
-  margin: auto;
-  margin-top: 55px;
-  padding: 0px;
-  justify-content: center;
-  width: 1000px;
-}
-.titles-section ul {
-  margin-top: 0px;
-  margin-bottom: auto;
-  padding: 0px;
-  display: flex;
-}
-.titles-index {
-  margin-right: 30px;
-}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -72,11 +69,10 @@ li {
   font-size: 26px;
   line-height: 1.15em;
   color: var(--brand-color);
-  font-size: 26px;
   text-align: right;
+  text-decoration: none;
   letter-spacing: 0.03em;
   margin: auto;
-  text-decoration: none;
 }
 .link a {
   font-weight: 500;
@@ -132,17 +128,20 @@ button:hover {
   text-align: center;
   letter-spacing: 0.06em;
 }
+
 .titles-section {
   display: flex;
-  margin-top: 55px;
   padding: 0px;
-  justify-content: center;
-  width: 1000px;
+  padding-top: 95px;
+  padding-left: 15px;
 }
 .titles-section ul {
-  margin-top: 0px;
-  margin-bottom: auto;
-  padding: 0px;
+  padding: 0%;
+  margin: auto;
+  display: flex;
+}
+.titles-index {
+  margin-right: 30px;
 }
 
 .link-contacts:hover,
@@ -183,11 +182,12 @@ main .title {
   height: 60vh;
 }
 
-main .content-title {
+.content-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.428em;
   letter-spacing: 0.03em;
+  font-style: normal;
   text-transform: uppercase;
 }
 
@@ -195,15 +195,14 @@ main .content-title {
   font-size: 14px;
   color: #757575;
   line-height: 1.7;
-  font-weight: 400;
   margin: auto;
-  font-size: 14px;
-  line-height: 1.71em;
   letter-spacing: 0.03em;
+  width: 270px;
 }
 .img-prin {
   display: block;
-  margin: auto;
+  margin-left: 100px;
+  margin-right: 100px;
   width: auto;
   margin-top: 94px;
 }
@@ -219,47 +218,50 @@ main .content-title {
 }
 .img-li {
   display: flex;
-  justify-content: center;
-  margin: auto;
-  padding: 0;
+  margin: 0px;
+  margin-right: 0px;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 }
 .imag-objets {
   margin-right: 30.26px;
-}
-.list-team {
-  width: 270px;
   height: 368px;
-  margin-left: 20px;
 }
 .our-team {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166em;
   margin: auto;
-  margin-bottom: 50px;
+  padding-bottom: 55px;
   font-style: normal;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .team-work {
-  margin-top: 94px;
-  padding: 94px;
+  padding-left: 15px;
+  padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
 }
+
 .fondo {
   display: flex;
   margin: auto;
-  padding: 0%;
-  padding-left: 10px;
-  flex-direction: row;
+  padding: 0px;
+}
+.list-team {
+  width: 270px;
+  height: 368px;
+  margin-right: 30px;
+}
+.img-e {
+  width: 270px;
+  height: 260px;
 }
 .name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.1;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.428em;
   color: var(--text-color);
   text-align: center;
   letter-spacing: 0.03em;
@@ -267,12 +269,13 @@ main .content-title {
 }
 
 .profession {
-  font-size: 16px;
+  font-size: 14px;
   color: #757575;
-  line-height: 1.1;
-  font-weight: 500;
+  line-height: 1.71em;
   text-align: center;
+  font-weight: 500;
   letter-spacing: 0.03em;
+  margin: auto;
   font-style: normal;
 }
 
@@ -289,6 +292,11 @@ main .content-title {
   margin-right: 9px;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.filter-button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
 }
 .button-blue {
   font-family: "Roboto";
@@ -339,40 +347,42 @@ main .content-title {
   font-size: 18px;
   line-height: 2em;
 }
+.img-port {
+  width: 370px;
+  height: 404px;
+  border-bottom: 2px solid #b0adad;
+  box-shadow: 0px 1px 1px rgba(o, 0, 0, 0.12), 0px 4px, 4px rgba(o, 0, 0, 0.6),
+    1px, 4px, 6px rgba(o, 0, 0, 0.16);
+}
 footer {
   padding-left: 15px;
-  padding-top: 80px;
+  padding-top: 60px;
   padding-bottom: 60px;
-}
-.footer-f {
   background-color: #2f303a;
-  height: 252px;
-  display: flex;
-  flex-direction: column;
 }
+
 .contacts-footer {
   font-size: 14px;
   color: #ffffff;
   line-height: 1.7;
-  font-family: "Roboto";
   letter-spacing: 0.03em;
-  margin-top: 258px;
+  font-weight: 400;
+  line-height: 1.7142em;
 }
 
-footer .logo {
+.logo-f {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.15em;
   color: var(--brand-color);
-  margin-left: 100px;
   letter-spacing: 0.03em;
-  display: flex;
 }
 .list-footer {
   list-style: none;
   padding: 0%;
-  margin-left: 100px;
+  width: 231px;
+  height: 92px;
 }
 .list-footer a {
   text-decoration: none;
@@ -383,11 +393,5 @@ address {
 .contacts-footer:hover,
 .contacts-footer:focus {
   color: var(--brand-color);
-  cursor: pointer;
-}
-
-.filter-button:hover {
-  background-color: #2196f3;
-  color: #ffffff;
   cursor: pointer;
 }
