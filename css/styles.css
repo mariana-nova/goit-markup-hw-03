@@ -23,11 +23,15 @@ body {
 }
 .container {
   width: 1200px;
-  padding-right: 15px;
+  margin: auto;
   padding-left: 15px;
-  margin-right: 15px;
-  margin-left: 15px;
+  padding-right: 15px;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .menu {
   display: flex;
   list-style: none;
@@ -67,7 +71,7 @@ li {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.15em;
+  line-height: 1.19;
   color: var(--brand-color);
   text-align: right;
   text-decoration: none;
@@ -129,13 +133,13 @@ button:hover {
   letter-spacing: 0.06em;
 }
 
-.titles-section {
+.titles-ventajas {
   display: flex;
   padding: 0px;
   padding-top: 95px;
   padding-left: 15px;
 }
-.titles-section ul {
+.titles-ventajas ul {
   padding: 0%;
   margin: auto;
   display: flex;
@@ -194,7 +198,7 @@ main .title {
 .content {
   font-size: 14px;
   color: #757575;
-  line-height: 1.7;
+  line-height: 1.428em;
   margin: auto;
   letter-spacing: 0.03em;
   width: 270px;
@@ -224,8 +228,14 @@ main .title {
   justify-content: center;
 }
 .imag-objets {
-  margin-right: 30.26px;
   height: 368px;
+  margin-right: 30.26px;
+}
+.img-cont {
+  width: 373.16px;
+  height: 323.7px;
+  margin-left: 3 auto;
+  margin-right: 0 auto;
 }
 .our-team {
   font-weight: 700;
@@ -238,8 +248,7 @@ main .title {
   letter-spacing: 0.03em;
 }
 .team-work {
-  padding-left: 15px;
-  padding-top: 94px;
+  display: block;
   padding-bottom: 94px;
   background-color: #f5f4fa;
 }
@@ -252,8 +261,8 @@ main .title {
 .list-team {
   width: 270px;
   height: 368px;
-  margin-right: 5px;
-  margin-left: 9px;
+  margin-right: 6px;
+  margin-left: 15px;
 }
 
 .img-e {
@@ -352,9 +361,9 @@ main .title {
 .img-port {
   width: 370px;
   height: 404px;
-  border-bottom: 2px solid #b0adad;
-  box-shadow: 0px 1px 1px rgba(o, 0, 0, 0.12), 0px 4px, 4px rgba(o, 0, 0, 0.6),
-    1px, 4px, 6px rgba(o, 0, 0, 0.16);
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 footer {
   padding-left: 15px;

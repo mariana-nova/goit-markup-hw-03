@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/modern-normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,8 +17,8 @@
     />
   </head>
   <body>
-    <div class="container">
-      <header class="cabecera">
+    <header class="cabecera">
+      <div class="container cabecera">
         <a class="logo" href="#">WebStudio</a>
         <nav class="menu">
           <ul class="list">
@@ -42,9 +45,11 @@
             >
           </li>
         </ul>
-      </header>
-      <main>
-        <section class="hero">
+      </div>
+    </header>
+    <main>
+      <section class="hero section">
+        <div class="container hero">
           <h1 class="title">
             SOLUCIONES EFICACES PARA <br />
             SU NEGOCIO
@@ -52,8 +57,10 @@
           <button class="button" type="button">
             Solicite nuestro servicio
           </button>
-        </section>
-        <section class="titles-section">
+        </div>
+      </section>
+      <section class="titles-ventajas section">
+        <div class="container titles-section">
           <ul>
             <li class="titles-index">
               <h2 class="content-title">ATENCIÓN A LOS DETALLES</h2>
@@ -88,12 +95,15 @@
               </p>
             </li>
           </ul>
-        </section>
-        <section class="img-prin">
+        </div>
+      </section>
+      <section class="img-prin">
+        <div class="container img-prin">
           <h2 class="section-title">A qué nos dedicamos</h2>
           <ul class="img-li">
             <li class="imag-objets">
               <img
+                class="img-cont"
                 src="./images/image7.jpg"
                 alt="foto en el trabajo"
                 width="373px"
@@ -101,6 +111,7 @@
             </li>
             <li class="imag-objets">
               <img
+                class="img-cont"
                 src="./images/image6.jpg"
                 alt="foto computador"
                 width="373px"
@@ -108,14 +119,17 @@
             </li>
             <li class="imag-objets">
               <img
+                class="img-cont"
                 src="./images/image1.jpg"
                 alt="foto hexagonal"
                 width="373px"
               />
             </li>
           </ul>
-        </section>
-        <section class="team-work">
+        </div>
+      </section>
+      <section class="team-work section">
+        <div class="container team-work">
           <h2 class="our-team">Nuestro Equipo</h2>
           <ul class="fondo">
             <li class="list-team">
@@ -162,9 +176,11 @@
               <p class="profession">Diseñador IU</p>
             </li>
           </ul>
-        </section>
-      </main>
-      <footer>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
         <a class="logo-f" href="#">WebStudio</a>
         <address>
           <ul class="list-footer">
@@ -189,7 +205,7 @@
             </li>
           </ul>
         </address>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
