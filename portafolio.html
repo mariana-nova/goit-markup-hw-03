@@ -13,33 +13,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
-    <header class="container cabecera">
-      <a class="logo" href="#">WebStudio</a>
-      <nav class="menu">
+    <header class="cabecera-p">
+      <div class="container cabecera-p" class="borde">
+        <a class="logo" href="#">WebStudio</a>
+        <nav class="menu">
+          <ul class="list">
+            <li id="current">
+              <a class="link" href="./index.html">Estudio</a>
+            </li>
+            <li>
+              <a class="link current" href="./portafolio.html">Portafolio</a>
+            </li>
+            <li>
+              <a class="link contacts" href="./contactos">contactos</a>
+            </li>
+          </ul>
+        </nav>
         <ul class="list">
-          <li id="current">
-            <a class="link" href="./index.html">Estudio</a>
+          <li>
+            <a class="link-contacts" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a class="link current" href="./portafolio.html">Portafolio</a>
-          </li>
-          <li>
-            <a class="link contacts" href="./contactos">contactos</a>
+            <a class="link-contacts" href="tel:+52 55 5529 6000"
+              >+52 55 5529 6000</a
+            >
           </li>
         </ul>
-      </nav>
-      <ul class="list">
-        <li>
-          <a class="link-contacts" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="link-contacts" href="tel:+52 55 5529 6000"
-            >+52 55 5529 6000</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <section class="container cuerpo-port">
@@ -155,31 +157,33 @@
         </ul>
       </section>
     </main>
-    <footer class="container">
-      <a class="logo-f" href="#">WebStudio</a>
-      <address>
-        <ul class="list-footer">
-          <li>
-            <a
-              class="contacts-footer"
-              href="https://www.google.com/search?q=Calz.+Ticom%C3%A1n+500%2C+Ciudad+de+M%C3%A9xico%2C+CDMX%2C+M%C3%A9xico&oq=Calz.+Ticom%C3%A1n+500%2C+Ciudad+de+M%C3%A9xico%2C+CDMX%2C+M%C3%A9xico&aqs=chrome..69i57.4331j0j7&sourceid=chrome&ie=UTF-8"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
-            >
-          </li>
-          <li>
-            <a class="contacts-footer" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a class="contacts-footer" href="tel:+52 55 5529 6000"
-              >+52 55 5529 6000
-            </a>
-          </li>
-        </ul>
-      </address>
+    <footer>
+      <div class="container">
+        <a class="logo-f" href="#">WebStudio</a>
+        <address>
+          <ul class="list-footer">
+            <li>
+              <a
+                class="contacts-footer"
+                href="https://www.google.com/search?q=Calz.+Ticom%C3%A1n+500%2C+Ciudad+de+M%C3%A9xico%2C+CDMX%2C+M%C3%A9xico&oq=Calz.+Ticom%C3%A1n+500%2C+Ciudad+de+M%C3%A9xico%2C+CDMX%2C+M%C3%A9xico&aqs=chrome..69i57.4331j0j7&sourceid=chrome&ie=UTF-8"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
+              >
+            </li>
+            <li>
+              <a class="contacts-footer" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a class="contacts-footer" href="tel:+52 55 5529 6000"
+                >+52 55 5529 6000
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
