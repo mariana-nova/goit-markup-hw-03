@@ -134,12 +134,10 @@ button:hover {
   border-radius: 4px;
   display: block;
   justify-content: center;
-  width: 240px;
-  height: 31px;
   text-align: center;
   letter-spacing: 0.06em;
   margin-left: 470px;
-  padding-bottom: 10px 32px;
+  padding: 10px 32px;
 }
 
 .titles-ventajas {
@@ -286,6 +284,7 @@ main .title {
   text-align: center;
   letter-spacing: 0.03em;
   font-style: normal;
+  padding-top: 30px;
 }
 
 .profession {
@@ -297,6 +296,7 @@ main .title {
   letter-spacing: 0.03em;
   margin: auto;
   font-style: normal;
+  padding: 10px;
 }
 
 .filter-button {
@@ -390,13 +390,21 @@ footer {
   background-color: #2f303a;
 }
 
-.contacts-footer {
+.contacts-footer-uno {
   font-size: 14px;
   color: #ffffff;
   line-height: 1.7;
   letter-spacing: 0.03em;
   font-weight: 400;
   line-height: 1.7142em;
+}
+.contacts-footer {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  line-height: 1.7142em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .logo-f {
